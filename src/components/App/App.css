@@ -4,33 +4,36 @@
   box-sizing: border-box;
 }
 
-.App {
-  text-align: center;
-}
-
 .body {
-  background-color: #463f3a;
-  color: antiquewhite;
-}
-
-.browser {
-  text-align: right;
-  margin-right: 20px;
+  color: #edf2f4;
+  text-align: center;
+  min-height: 870px;
+  background-color: #2b2d42;
 }
 
  .navBar, footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  background-color: pink;
+  background-color: #8d99ae;
   padding: 20px;
+  text-align: center;
+}
+
+.mainRow {
+  display: grid;
+  grid-template-columns: 0.50fr 1fr;
+}
+
+h1 {
+  margin: 30px;
 }
 
 .easy {
-  color: pink;
+  color: #ffbe0b;
 }
 
 .notEasy {
-  color: lightblue;
+  color: #ff6700;
 }
 
 .done{
@@ -39,7 +42,8 @@
 
 a {
   text-decoration: none;
-  color: #f4f3ee;
+  color: #edf2f4;
+  font-weight: bold;
 }
 
 .navBar ul {
@@ -51,19 +55,28 @@ a {
   flex-grow: 1;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.toDoList{
+  text-align: left;
 }
 
-.picture {
+.toDoList li {
+  margin-top: 15px;
+  font-size: 20px;
+  list-style: none;
+}
+
+.userPicture {
   max-height: 200px;
+  border-radius: 50px;
+  padding: 10px;
 }
 
 span {
   color: red;
+}
+
+button {
+  padding: 5px;
+  font-family: system-ui, sans-serif;
+
 }
