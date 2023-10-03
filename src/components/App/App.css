@@ -11,7 +11,6 @@
   background-color: #2b2d42;
 }
 
-
 .mainRow {
   display: grid;
   grid-template-columns: 0.50fr 1fr;
@@ -40,10 +39,6 @@ h1 {
   text-decoration: line-through;
 }
 
-
-
-
-
 .toDoList {
   text-align: left;
 }
@@ -54,10 +49,6 @@ h1 {
   list-style: none;
   margin-bottom: 10px;
 }
-
-
-
-
 
 .tasksPoints {
   border: 2px solid;
