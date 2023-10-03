@@ -4,20 +4,13 @@
   box-sizing: border-box;
 }
 
-.body {
+.Body {
   color: #edf2f4;
   text-align: center;
   min-height: 870px;
   background-color: #2b2d42;
 }
 
- .navBar, footer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-  background-color: #8d99ae;
-  padding: 20px;
-  text-align: center;
-}
 
 .mainRow {
   display: grid;
@@ -47,22 +40,11 @@ h1 {
   text-decoration: line-through;
 }
 
-a {
-  text-decoration: none;
-  color: #edf2f4;
-  font-weight: bold;
-}
 
-.navBar ul {
-  display: flex;
-  list-style: none;
-}
 
-.navBar li {
-  flex-grow: 1;  
-}
 
-.toDoList{
+
+.toDoList {
   text-align: left;
 }
 
@@ -73,15 +55,9 @@ a {
   margin-bottom: 10px;
 }
 
-.userPicture {
-  max-height: 350px;
-  border-radius: 10%;
-  padding: 10px;
-}
 
-.tincho {
-  color: red;
-}
+
+
 
 .tasksPoints {
   border: 2px solid;
@@ -102,7 +78,4 @@ input > #myForm {
   padding-bottom: 30px;
 }
 
-button {
-  padding: 5px;
-  font-family: system-ui, sans-serif;
-}
+
