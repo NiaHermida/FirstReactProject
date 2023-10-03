@@ -1,0 +1,27 @@
+.Navbar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    background-color: #8d99ae;
+    padding: 20px;
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #edf2f4;
+    font-weight: bold;
+  }
+
+  .Navbar ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .Navbar li {
+    flex-grow: 1;  
+  }
+
+  button {
+    padding: 5px;
+    font-family: system-ui, sans-serif;
+  }

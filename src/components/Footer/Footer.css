@@ -1,0 +1,11 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    background-color: #8d99ae;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .tincho {
+    color: red;
+  }

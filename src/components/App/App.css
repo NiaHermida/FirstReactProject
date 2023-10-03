@@ -1,38 +1,81 @@
-.App {
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Body {
+  color: #edf2f4;
   text-align: center;
+  min-height: 870px;
+  background-color: #2b2d42;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.mainRow {
+  display: grid;
+  grid-template-columns: 0.50fr 1fr;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  margin: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.easy {
+  color: #ffbe0b;
 }
 
-.App-link {
-  color: #61dafb;
+.notEasy {
+  color: #ff6700;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.productivityNumber {
+  margin-top: 20px;
+  border-style: solid;
+  padding: 10px;
+  width: fit-content;
 }
+
+.done{
+  text-decoration: line-through;
+}
+
+
+
+
+
+.toDoList {
+  text-align: left;
+}
+
+.toDoList li {
+  margin-top: 15px;
+  font-size: 20px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+.tasksPoints {
+  border: 2px solid;
+  border-radius: 90px;
+  color:#edf2f4;
+  padding: 0 7px;
+}
+
+.labelToDoList {
+  margin: 0 7px;
+}
+
+.addTask {
+  margin-top: 20px;
+}
+
+input > #myForm {
+  padding-bottom: 30px;
+}
+
+
